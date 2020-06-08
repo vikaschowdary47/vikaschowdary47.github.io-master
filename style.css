@@ -23,6 +23,24 @@ body{
     font-size: 70px;
     font-weight: 600;
 }
+
+.intro{
+    color: white;
+}
+/* .col-sm-3{
+    width: 40%;
+} */
+.col-12{
+    text-align: center;
+}
+
+.col-6.msg{
+    text-align: center;
+}
+.col-6 p.message{
+    font-size: 30px ;
+}
+
 /* Nav bar */
 
 nav{
@@ -67,3 +85,7 @@ ul.topnav li a:hover{
     text-align: center;
     color: white;
 }
+
+/* mobile */
+
+@media 
