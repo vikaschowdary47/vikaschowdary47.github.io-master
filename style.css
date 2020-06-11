@@ -23,9 +23,17 @@ body{
     font-size: 70px;
     font-weight: 600;
 }
-
+.me{
+    /* background-color: 	#D3D3D3; */
+    text-align: center;
+    display: block;
+}
 .intro{
-    color: white;
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: arial;
+    padding-top: 2px;
 }
 /* .col-sm-3{
     width: 40%;
@@ -40,6 +48,31 @@ body{
 .col-6 p.message{
     font-size: 30px ;
 }
+.myproj{
+    background-color: #D3D3D3;
+}
+.card{
+    text-align: center;
+}
+#skills{
+    text-align: center;
+    margin: 10px;
+}
+.skill-list{
+    display: flex;
+
+    flex-wrap: wrap ; 
+    }
+.skill-item{
+    padding: 2px;
+    font-size: 8px;
+    float: left;
+    text-align: center;
+    margin: 3px;
+    }
+.flex-layout{
+    text-align: center;
+}    
 
 /* Nav bar */
 
@@ -84,6 +117,29 @@ ul.topnav li a:hover{
     font-weight: 500;
     text-align: center;
     color: white;
+}
+.section{
+    margin: 30px;
+}
+.container{
+    background-color: lightgray;
+    margin: 0;
+    max-width: 100%;
+}
+.fa{
+    font-size: 20px;
+    
+}
+.social-icons{
+    float: left;
+}
+ul.social-icons li{
+    float: left;
+    list-style: none;
+    margin: 4px;
+}
+ul.social-icons li a{
+    text-decoration: none;
 }
 
 /* mobile */
